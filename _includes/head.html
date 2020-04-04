@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta property="og:site_name" content="Matthew Jordan"/>
+  {% if page.title != "Matthew Jordan" %}
+    <meta property="og:title" content="{{ page.title }} — Matthew Jordan"/>
+    <meta name="twitter:title" content="{{ page.title }} — Matthew Jordan"/>
+  {% else %}
+    <meta property="og:title" content="Matthew Jordan"/>
+    <meta name="twitter:title" content="Matthew Jordan"/>
+  {% endif %}
+  <meta property="og:type" content="article">
+  {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}"/>
+    <meta name="twitter:description" content="{{ page.description }}"/>
+  {% else %}
+    <meta property="og:description" content="Clean, clear, and under control since '94"/>
+    <meta name="twitter:description" content="Clean, clear, and under control since '94"/>
+  {% endif %}
+  <meta property="og:url" content="{{ page.url }}"/>
+  <meta name="twitter:url" content="{{ page.url }}"/>
+  {% if page.image %}
+    <meta property="og:image" content="{{ page.image | prepend: '/assets/img/' }}"/>
+    <meta name="twitter:image" content="{{ page.image | prepend: '/assets/img/' }}"/>
+  {% else %}
+    <meta property="og:image" content="https://i.imgur.com/Ww9pl53.jpg"/>
+    <meta name="twitter:image" content="https://i.imgur.com/Ww9pl53.jpg"/>
+  {% endif %}
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@mattyj612"/>
+  <link rel="shortcut icon" href="/assets/img/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/">
+  <title>Matthew Jordan</title>
+</head>
