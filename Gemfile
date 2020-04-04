@@ -12,6 +12,6 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jemoji'
     gem 'unicode_utils'
-    gem 'jekyll-font-awesome-sass'
     gem 'font-awesome-sass'
+    gem 'jekyll-font-awesome-sass'
 end
