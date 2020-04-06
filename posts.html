@@ -1,10 +1,13 @@
 ---
-layout: page
+layout: default
 title: Posts
 permalink: /posts/
-description:
 published: true
 ---
+
+<header class=margin-bottom:10px>
+  <h1 class="page-header">Posts</h1>
+</header>
 
 <ul class="post-list">
   {% for post in site.posts %}
@@ -15,3 +18,5 @@ published: true
     </li>
   {% endfor %}
 </ul>
+
+{% include social.html %}

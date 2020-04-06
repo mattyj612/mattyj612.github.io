@@ -23,6 +23,15 @@ goodreads_username: mattyj612
 # google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+
+# -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 #blog_name: Matthew Jordan
