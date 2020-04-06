@@ -5,10 +5,6 @@ name: Matthew Jordan
 title: Matthew Jordan
 email: matthewjordan@live.ca
 description: Clean, clear, and under control since '94
-footer_text:
-#  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-#  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-#  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  #matthewleejordan.com # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
@@ -23,11 +19,8 @@ linkedin_username: matthewleejordan
 scholar_userid: sqbQNLgAAAAJ
 instagram_username: mattyj612
 goodreads_username: mattyj612
-orcid_id: # your ORCID ID
-contact_note: >
-#  You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+# google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -54,21 +47,6 @@ enable_anchorjs:    false
 enable_katex:       true
 
 # -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-collections:
-#  news:
-#    defaults:
-#      layout: post
-#    output: true
-#    permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-#news_limit: 5
-
-# -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
@@ -86,30 +64,6 @@ plugins:
     - jekyll-paginate
     - jekyll-scholar
     - jemoji
-
-# Jekyll-Scholar
-#scholar:
-
-#  last_name: Einstein
-
-#  style: apa
-#  locale: en
-
-#  sort_by: year
-#  order: descending
-
-#  source: /_bibliography/
-#  bibliography: papers.bib
-#  bibliography_template: bib
-
-#  replace_strings: true
-#  join_strings: true
-
-#  details_dir: bibliography
-#  details_layout: bibtex.html
-#  details_link: Details
-
-#  query: "@*"
 
 # -----------------------------------------------------------------------------
 # Other settings
