@@ -16,7 +16,7 @@ published: true
     <div class="thumbnail">
         <a href="{{ project.redirect }}" target="_blank">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+        <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}
@@ -31,11 +31,11 @@ published: true
 
 {% else %}
 
-<div class="project ">
+<div class="project">
     <div class="thumbnail">
-        <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
+        <a href="{{ project.url }}">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+        <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}
@@ -51,5 +51,12 @@ published: true
 {% endif %}
 
 {% endfor %}
+
+<div class="project">
+</div>
+
+<div class="project">
+</div>
+
 
 {% include social.html %}
